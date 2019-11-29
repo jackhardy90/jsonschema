@@ -1,0 +1,19 @@
+{
+    "title": "patient",
+    "type": "object",
+    "properties": {
+        "firstName": {
+            "type": "string"
+        },
+        "lastName": {
+            "type": "string"
+        },
+        "age": {
+            "type": "integer"
+        },
+        "DOB": {
+            "type": "integer",
+            "description": "Date of Birth"
+        }
+    }
+}
